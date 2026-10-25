@@ -1,0 +1,23 @@
+{
+  "name": "instalite",
+  "version": "1.0.0",
+  "description": "Instalite backend service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node prisma/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^7.10.1",
+    "dotenv": "^18.0.9",
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "prisma": "^7.10.1"
+  }
+}
